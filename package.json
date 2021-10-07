@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/walterPereiraGomes/imersao_node_js/issues"
   },
-  "homepage": "https://github.com/walterPereiraGomes/imersao_node_js#readme"
+  "homepage": "https://github.com/walterPereiraGomes/imersao_node_js#readme",
+  "dependencies": {
+    "commander": "^8.2.0"
+  }
 }
