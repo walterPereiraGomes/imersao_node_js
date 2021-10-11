@@ -1,0 +1,24 @@
+{
+  "name": "07-multi_db",
+  "version": "1.0.0",
+  "description": "-- POSTGRES\r     docker run --name meu-postgres -e POSTGRES_USER=walter -e POSTGRES_PASSWORD=senhaforte -e POSTGRES_DB=heroes -p 5432:5432 -d postgres",
+  "main": "index.js",
+  "scripts": {
+    "testpg": "mocha src/tests/postgresStrategy.test.js",
+    "testpg:watch": "mocha src/tests/postgresStrategy.test.js -w",
+    "testmongo": "mocha src/tests/mongodbStrategy.test.js",
+    "testmongo:watch": "mocha src/tests/mongodbStrategy.test.js -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.0.10",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.2"
+  }
+}

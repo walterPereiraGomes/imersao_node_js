@@ -6,6 +6,9 @@
 05-tests/01/node_modules
 06-cli/node_modules
 07-multi_db/node_modules
+08-multi_db_postgres_mongodb/node_modules
+09-multi_db_refactoring/node_modules
+
 /.pnp
 .pnp.js
 
